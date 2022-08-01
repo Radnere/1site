@@ -1,0 +1,25 @@
+.antables td{
+	border: 1px solid black; 
+}
+.antables tr:nth-child(even){
+    background-color: #ffffff;
+}
+.antables tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+.antables {
+	border: 1px inset black; 
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 36px;
+}
+form {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 36px;
+}
+#back {
+	float:left;
+	width: 80px;
+}

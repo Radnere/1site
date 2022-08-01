@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="blog">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="post" maxOccurs="unbounded" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element type="xsd:string" name="title">
+                            <xsd:element type="xsd:string" name="text">
+                            <xsd:element type="xsd:date" name="date">
+                            <xsd:element type="xsd:string" name="theme">
+                            <xsd:element type="xsd:string" name="keywords">
+                            <xsd:element type="xsd:string" name="files">
+                            <xsd:element name="records">
+                            <xsd:complexType>
+                            <xsd:sequence>
+                            <xsd:element name="comment" maxOccurs="unbounded" minOccurs="0">
+                            <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element name="author">
+                                                        <xsd:simpleType>
+                                                            <xsd:restriction base="xsd:string">
+                                                                <xsd:pattern value="[а-яА-Яa-zA-Z0-9\-_]{3,20}"/>
+                                                            </xsd:restriction>
+                                                        </xsd:simpleType>
+                                                    </xsd:element>
+                            <xsd:element type="xsd:string" name="text">
+                            <xsd:element name="responses">
+                            <xsd:complexType>
+                            <xsd:sequence>
+                            <xsd:element name="response" maxOccurs="unbounded" minOccurs="0">
+                            <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="author">
+                                                        <xsd:simpleType>
+                                                            <xsd:restriction base="xsd:string">
+                                                                <xsd:pattern value="[а-яА-Яa-zA-Z0-9\-_]{3,20}"/>
+                                                            </xsd:restriction>
+                                                        </xsd:simpleType>
+                                                    </xsd:element>
+                            <xsd:element type="xsd:string" name="text">
+                            </xsd:sequence>
+                            </xsd:complexType>
+                            </xsd:element>
+                            </xsd:sequence>
+                            </xsd:complexType>
+                            </xsd:element>
+                            </xsd:sequence>
+                            </xsd:complexType>
+                            </xsd:element>
+                            </xsd:sequence>
+                            </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

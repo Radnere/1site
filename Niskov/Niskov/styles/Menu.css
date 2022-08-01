@@ -1,0 +1,83 @@
+.menu {
+    padding: 4px 5px;
+    background: #f0f0f0;
+    border: 2px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+.dopmenu a{
+    text-align: center;
+    margin: 1%;
+}
+.dopmenu {
+    margin: 0px;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+.dopmenu-content a {
+    color: black;
+    background-color: rgb(241, 241, 241);
+    padding: 5px 5px;
+    display: block;
+}
+.dopmenu-content {
+    border: 4px solid black;
+    display: none;
+    position: absolute;
+    width: 300px;
+    margin-left: -30px;
+    margin-bottom: -10px;
+    background-color: rgb(187, 187, 187);
+    top: 20
+}
+.dopmenu-content a:hover {background-color: rgb(224, 224, 224);}
+
+.dopmenu:hover .dopmenu-content {display: block;}
+
+.svg-wrapper {
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 450px;
+  }
+  
+  .shape {
+    fill: transparent;
+    stroke-dasharray: 140 920;
+    stroke-dashoffset: 0;
+    stroke-width: 0px;
+    stroke: hsl(0, 0%, 0%);
+  }
+  
+  .text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    letter-spacing: 12px;
+    line-height: 32px;
+    position: relative;
+    top: -48px;
+  }
+  
+  @keyframes draw {
+    0% {
+      stroke-dasharray: 140 920;
+      stroke-dashoffset: 0;
+      stroke-width: 12px;
+    }
+    100% {
+      stroke-dasharray: 1020;
+      stroke-dashoffset: 0;
+      stroke-width: 6px;
+    }
+  }
+  
+  .svg-wrapper:hover .shape {
+    -webkit-animation: 0.3s draw linear forwards;
+    animation: 0.3s draw linear forwards;
+  }

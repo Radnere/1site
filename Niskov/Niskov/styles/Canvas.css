@@ -1,0 +1,11 @@
+canvas
+{
+    position: absolute;
+    z-index: -1;
+    margin-top: -84px;
+    width: 100%;
+}
+.index_canvas
+{
+    margin-top: -60px;
+}

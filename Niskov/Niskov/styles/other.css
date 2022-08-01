@@ -1,0 +1,57 @@
+hr {
+    position: relative;
+    border: none;
+    height: 5px;
+    background: black;
+}
+.first {
+	margin-bottom: 20px;
+	margin-top: 1px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 4px 50px;
+}
+td {
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+.post{
+    display: block;
+    margin: 10px auto;
+    padding: 3px 5px;
+    border: 5px solid #000000;
+    -moz-border-radius: 10px 2px;
+    -webkit-border-radius: 10px 2px;
+    border-radius: 10px 2px;
+    width: 450px;
+    cursor: pointer;
+}
+.shrift{
+    height: 30px;
+    width: 400px;
+}
+#BlogIn{
+    padding: 50px 1px;
+    margin-left: 450px;
+	margin-right: 450px;
+    border: 5px solid #000000;
+}
+.BlogFormClass p 
+{
+    padding: 15px 50px;
+}
+.sticky {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+.bodyh {
+    opacity: 0;
+    transition: .6s opacity ease-in-out;
+}
+.bvisible {
+    opacity: 1;
+}

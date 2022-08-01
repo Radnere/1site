@@ -1,0 +1,6 @@
+ol {
+	font-size: 32px;
+}
+.L_G h1::first-letter {
+	color: Red;
+}

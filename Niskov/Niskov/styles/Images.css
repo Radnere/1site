@@ -1,0 +1,134 @@
+#MyPhoto {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	border: 4px solid black;
+	height: 500 px;
+}
+.contentIMG img{
+    height: 450px;
+    margin: 20px 20px 20px 5px;
+    border: 5px solid black;
+    border-radius: 15px 30px;
+    cursor: zoom-in;
+}
+.tablmenu img {
+	height: 100px;
+}
+#blog {	
+  height: 80px;
+}
+#G {	
+    height: 40px;
+    vertical-align:top;
+     margin-right: -10px;
+     margin-top: -5px;
+
+  }
+div.contentIMG:hover img{
+    border: 5px solid rgb(95, 204, 255);
+    border-radius: 15px 30px;
+}
+.modal-content-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0 ;
+    position: relative;
+}
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    overflow: auto;
+}
+.popup_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.popup_content{
+    margin-top: 300px;
+    position: relative;
+    height: 1000px;
+}
+.popup_content img{
+    height: 100%;
+}
+.popup_body span{
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    right: -20px;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+}
+#closebutton 
+{
+    margin-right: 30px;
+    height: 65px;
+}
+
+/* Для карусели */
+.blockSlider{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 965px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+.carousel {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    padding-top: 20 px;
+}
+.carousel img {
+    height: 235px;
+    width: 417px;
+}
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+    width: 834px;
+    overflow: hidden;
+}
+.gallery ul {
+    height: 230px;
+    width: 10000px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    font-size: 0;
+}
+.gallery li {
+    display: inline-block;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn img{
+    width: 55px;
+    height: 55px;
+}
+.leftb{
+    left: 0px;
+
+}
+.rightb{
+    right: 0px;
+}

@@ -1,0 +1,11 @@
+a{
+	text-decoration: none;
+	color: black;
+    -moz-border-radius: 20px; /* Firefox */
+    -webkit-border-radius: 20px; /* Safari, Chrome */
+    -khtml-border-radius: 20px; /* KHTML */
+  }
+  a:hover {
+   color: red;/*добавляем эффект при наведении*/
+  }
+  

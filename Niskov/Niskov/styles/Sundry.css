@@ -1,0 +1,18 @@
+@media print, projection{
+    body{
+        background-color: white;
+        }
+    h1, p, td, a{
+        font-family: Times, 'Times New Roman', serif;
+        color: black;
+    }
+    h1::first-letter{
+        color: blue;
+    }
+}
+@page :right {
+    margin: 1cm 1cm 1cm 1cm;
+}
+@page :left {
+    margin: 1cm 1cm 1cm 1cm;
+}

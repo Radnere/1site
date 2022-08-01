@@ -1,0 +1,21 @@
+.headings {
+	font-family: Georgia, serif;
+	font-size: 42px; 
+    color: Black;
+    text-align: center;
+    height: 10px;
+    display: table;
+    margin: auto;
+    cursor: pointer;
+  }
+  .row {
+    display: none;
+  }
+  .visible {
+    text-align: center;
+    color: rgb(124, 124, 124);
+    font-family: Georgia, serif;
+    font-style: italic;
+	font-size: 22px; 
+    display: block;
+  }

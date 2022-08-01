@@ -1,0 +1,88 @@
+.tablmenu {
+	border: 0px inset black; 
+	background-color: #f5f5f5;
+	margin-left: auto;
+    margin-right: auto;
+}
+.tablmenu td{
+	color: black;
+	border: 5px solid black; 
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	border-collapse: separate;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.tablanketa {
+	border: 0px inset black; 
+	background-color: rgba(255, 255, 255, 0.0);
+	margin-left: auto;
+    margin-right: auto;
+}
+.tablanketa td 
+{
+	border: 0px solid black; 
+}
+.tablanketa_1 {
+	border: 1px solid black; 
+}
+.tablanketa_1 td{
+	border: 1px solid black; 
+}
+.tablanketa_2 {
+	border: 1px solid black; 
+}
+.tablanketa_2 td{
+	border: 1px solid black; 
+}
+.plans {
+	border: 0px inset black; 
+	margin-left: auto;
+    margin-right: auto;
+}
+.plans td{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#td1 {
+	margin-left: auto;
+    margin-right: auto;
+	height: 300 px;
+	padding-top: 10px;
+}
+#td2 {
+	display: block;
+	height: 200 px;
+	padding-bottom: 300px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.tablanketa_1 tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ .tablanketa_1 tr:nth-child(odd){
+    background-color: #ffffff;
+}
+ .tablanketa_2 tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ .tablanketa_2 tr:nth-child(odd){
+    background-color: #ffffff;
+}
+.summary_font
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px; 
+    margin-bottom: 15px;
+	margin-left: auto;
+    margin-right: auto;
+    clear: left;
+}
+.summary_font2
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px; 
+    margin-bottom: 15px;
+	text-align: center;
+    clear: left;
+}

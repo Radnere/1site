@@ -1,0 +1,60 @@
+.tablmenu td{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 24px; 
+	text-align: center;
+	text-shadow: 5px 5px 10px grey;
+	
+}
+.tablanketa h1{
+	font-size: 32px;
+}
+.tablanketa_1 {
+	font-size: 24px;
+}
+.tablanketa_2 {
+	font-size: 24px;
+}
+.plans a {
+	font-size: 48px;
+}
+ input {
+	 font-size: 24px;
+ }
+.post {
+	 font-size: 24px;
+ }
+.blockB {
+	text-align: center;
+}
+.AI p {
+	font-size: 24px;
+}
+.AI a {
+	font-size: 30px;
+}
+.listpro p{
+text-align: left;
+font-size: 32px;
+}
+.love p{
+	text-align: left;
+	font-size: 36px;
+}
+#vob {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 36px;
+}
+#post {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 36px;
+}
+.button
+{
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 5px 5px 10px grey;
+}
